@@ -33,6 +33,7 @@ git clone https://github.com/GaniAliguzhinov/astronvim ~/.config/nvim
 
 ```shell
 git clone git@github.com:GaniAliguzhinov/astronvim.git ~/.config/nvim
+./fetch-updates.sh
 ```
 
 #### Start Neovim
