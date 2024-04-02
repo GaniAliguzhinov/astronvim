@@ -58,4 +58,5 @@ return {
   },
   { import = "astrocommunity.markdown-and-latex.glow-nvim" },
   { import = "astrocommunity.color.transparent-nvim" },
+  { import = "astrocommunity.pack.cpp" },
 }
