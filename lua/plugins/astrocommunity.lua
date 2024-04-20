@@ -8,13 +8,13 @@
 return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.pack.rust" },
-  { import = "astrocommunity.colorscheme.nightfox-nvim",  enabled = false },
-  { import = "astrocommunity.colorscheme.kanagawa-nvim",  enabled = false },
+  { import = "astrocommunity.colorscheme.nightfox-nvim", enabled = false },
+  { import = "astrocommunity.colorscheme.kanagawa-nvim", enabled = false },
   { import = "astrocommunity.colorscheme.rose-pine" },
   { import = "astrocommunity.colorscheme.everforest" },
   { import = "astrocommunity.colorscheme.bamboo-nvim" },
   { import = "astrocommunity.colorscheme.tokyonight-nvim" },
-  { import = "astrocommunity.colorscheme.catppuccin",     enabled = true },
+  { import = "astrocommunity.colorscheme.catppuccin", enabled = true },
   { -- further customize the options set by the community
     "catppuccin",
     opts = {
@@ -59,4 +59,6 @@ return {
   { import = "astrocommunity.markdown-and-latex.glow-nvim" },
   { import = "astrocommunity.color.transparent-nvim" },
   { import = "astrocommunity.pack.cpp" },
+  { import = "astrocommunity.editing-support.comment-box-nvim" },
+  { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
 }
